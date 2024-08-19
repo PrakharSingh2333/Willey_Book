@@ -1,0 +1,35 @@
+\ Model Distribution
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+  0 Customer_depot_or_factory[C1,Birmingham]
+   + 0 Customer_depot_or_factory[C1,Liverpool]
+   + 0 Customer_depot_or_factory[C1,Brighton]
+   + 0 Customer_depot_or_factory[C2,Newcastle]
+   + 0 Customer_depot_or_factory[C2,Birmingham]
+   + 0 Customer_depot_or_factory[C2,London]
+   + 0 Customer_depot_or_factory[C3,Newcastle]
+   + 0 Customer_depot_or_factory[C3,Birmingham]
+   + 0 Customer_depot_or_factory[C3,London]
+   + 0 Customer_depot_or_factory[C3,Exeter]
+   + 0 Customer_depot_or_factory[C3,Liverpool]
+   + 0 Customer_depot_or_factory[C4,Newcastle]
+   + 0 Customer_depot_or_factory[C4,Birmingham]
+   + 0 Customer_depot_or_factory[C4,Exeter]
+   + 0 Customer_depot_or_factory[C4,Liverpool]
+   + 0 Customer_depot_or_factory[C5,Birmingham]
+   + 0 Customer_depot_or_factory[C5,London]
+   + 0 Customer_depot_or_factory[C5,Exeter]
+   + 0 Customer_depot_or_factory[C6,Newcastle]
+   + 0 Customer_depot_or_factory[C6,London]
+   + 0 Customer_depot_or_factory[C6,Exeter]
+   + 0 Customer_depot_or_factory[C6,Liverpool]
+   + 0 Depot_from_factory[Newcastle,Liverpool]
+   + 0 Depot_from_factory[Birmingham,Liverpool]
+   + 0 Depot_from_factory[Birmingham,Brighton]
+   + 0 Depot_from_factory[London,Liverpool]
+   + 0 Depot_from_factory[London,Brighton]
+   + 0 Depot_from_factory[Exeter,Liverpool]
+   + 0 Depot_from_factory[Exeter,Brighton]
+Subject To
+Bounds
+End
